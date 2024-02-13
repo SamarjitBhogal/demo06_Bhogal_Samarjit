@@ -1,1 +1,69 @@
 
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
+
+/* New Color Palette:
+* Lightest (Main Background): #f2fbf2
+* Dark Green (Primary): #005a00
+* Light Green (Secondary): #72b372
+* Reddish-Brown (Accent): #b75858
+*/
+
+.bg-info {
+    background-color: #BEB8EB !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #2C4251; /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #f2fbf2; /* Lightest shade for text on info button for contrast */
+    background-color: #72b372; /* Light green for button background */
+    border-color: #005a00; /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #f2fbf2; /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #2C4251; /* Dark green for primary button background */
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+.btn-secondary {
+    background-color: #0CBABA;
+}
+
+.btn-secondary:hover {
+    background-color: #0CBABA;
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.container {
+    color: #FEF6C9;
+}
+
+.btn-outline-primary {
+    background-color: #BEB8EB !important;
+    color: #2C4251;
+    outline: none;
+    border: none;
+}
+
+.submit-btn {
+    background-color: #0CBABA !important;
+}
+
+body {
+    background-color: #2C4251; /* Lightest shade for body background to follow the 60% rule */
+}
